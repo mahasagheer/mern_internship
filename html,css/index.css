@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  scroll-behavior: smooth;
+  margin: 0%;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #caf4ff;
+  padding: 1.15% 2%;
+  z-index: 10;
+  position: sticky;
+}
+
+.list_display {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+.logo {
+  font-size: 2vw;
+}
+a {
+  text-decoration: none;
+  font-size: 1.25vw;
+}
+.list_item {
+  border-radius: 10%;
+  padding: 2% 4% 2% 4%;
+}
+.list_item:hover {
+  background-color: #ffdb5c;
+}
+header {
+  background-image: url(edu-lauton-TyQ-0lPp6e4-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 45vw;
+  position: relative;
+}
+header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 0%;
+}
+.soldProducts {
+  font-size: 0.95vw;
+}
+.bannerHeading {
+  font-size: 4vw;
+  text-align: center;
+}
+.bannerParagraph {
+  font-size: 1.35vw;
+  text-align: center;
+}
+.bannersection {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 13vw;
+  margin-left: 10vw;
+}
+.products_items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.display {
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-right: 10%;
+  height: auto;
+  background-color: #ffdb5c;
+}
+.cart {
+  display: flex;
+  /* width: 60%;
+  height: 20%; */
+  border: 2px solid #5ab2ff;
+  padding: 1%;
+  justify-content: space-between;
+}
+.imge {
+  width: 10%;
+}
+.itemsAdded {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+}
+.cartDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartNo {
+  width: 25px;
+  height: 25px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+}
+.delete {
+  background-color: aliceblue;
+  font-size: large;
+  cursor: pointer;
+}
+.disable {
+  display: none;
+}
+.prodetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.productShow {
+  display: none;
+}
+.productDetails {
+  visibility: visible;
+}
+.products {
+  height: 35vw;
+  margin: 1% 1% 0% 1%;
+  width: 25%;
+}
+.style {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+
+.productHeading {
+  margin: 0% 10% 0% 10%;
+  text-align: center;
+  padding: 1%;
+}
+#butt {
+  width: 100%;
+  padding: 5%;
+  border: none;
+  background-color: #ffdb5c;
+  border-radius: 2%;
+}
+#butt:hover {
+  background-color: #caf4ff;
+}
+.text_decor {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 6% 2% 0%;
+}
+footer {
+  background-color: #caf4ff;
+  height: 2%;
+  width: 100%;
+  padding: 2%;
+}
+.lineOne {
+  padding: 2% 0% 1% 0%;
+}
+.lineTwo {
+  font-size: 1.25vw;
+}
+.product_name {
+  padding: 4% 0% 2% 0%;
+  font-size: 1.25vw;
+}
+.product_name:hover {
+  text-decoration: underline;
+}
+.price {
+  padding: 2% 0% 2% 0%;
+  font-size: 1.45vw;
+}
+.discountPrice {
+  text-decoration: line-through;
+  padding: 0% 0% 2% 0%;
+  font-size: 1.25vw;
+}
+#portfolio {
+  display: flex;
+  flex-direction: row;
+  margin: 0% 10% 0% 10%;
+}
+.portfolioBox {
+  height: 40vw;
+  width: 50vw;
+}
+.portfolioImage {
+  width: 100%;
+  padding: 2%;
+  height: 100%;
+}
+.detail {
+  width: 100%;
+  height: 14vw;
+  background-color: #caf4ff;
+  display: flex;
+  flex-direction: row;
+}
+.heading {
+  padding: 4%;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+.aboutMe {
+  width: 50%;
+  height: 100%;
+  padding: 5%;
+  text-align: center;
+  font-size: 1.15vw;
+}
+#contactUs {
+  display: flex;
+  flex-direction: row;
+  background: #caf4ff;
+  margin: 0% 10% 0% 10%;
+  width: 80%;
+}
+
+.contactMap,
+.contactForm {
+  width: 50%;
+  height: 38vw;
+}
+.contactMap {
+  padding: 1%;
+}
+.contactUsHeading {
+  padding: 5% 2% 5% 2%;
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+.contactUsLine {
+  padding: 0% 0% 2% 0%;
+  text-align: center;
+  font-size: 1vw;
+}
+.inputText {
+  padding: 0.75vw;
+  width: 100%;
+  outline: none;
+  font-size: 1vw;
+}
+textarea {
+  font-size: 1vw;
+}
+.align {
+  width: 100%;
+  padding: 0% 2% 0% 2%;
+}
+.label {
+  padding: 2% 2% 0% 2%;
+  font-size: 1.15vw;
+}
+.btnSubmit {
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 2%;
+  border: none;
+  background-color: #ffdb5c;
+  border-radius: 5%;
+  font-size: 1vw;
+}
+.btnSubmit:hover {
+  border: 2px solid #5ab2ff;
+}
+.aboutMeDetail {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0% 2% 0%;
+}
+.data {
+  background-color: #ffdb5c;
+  padding: 0% 3% 0% 3%;
+  border-radius: 5%;
+}
+.subheading {
+  padding: 3% 0% 3% 0%;
+}
+.product_align {
+  margin: 0% 10% 0% 10%;
+  width: 80vw;
+}
+
+@media screen and (max-width: 500px) {
+  #contactUs {
+    margin: 0%;
+    width: 100%;
+  }
+  #portfolio {
+    margin: 0%;
+    width: 100%;
+  }
+  .product_align {
+    margin: 0% 10% 0% 10%;
+  }
+  .products {
+    width: 45%;
+    height: 65vh;
+  }
+  .products_items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .bannerParagraph {
+    font-size: 1.75vw;
+  }
+  .para {
+    font-size: 1.4vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  #contactUs {
+    margin: 0% 5% 0% 5%;
+    width: 90%;
+  }
+  #portfolio {
+    margin: 0% 5% 0% 5%;
+    width: 90%;
+  }
+  .product_align {
+    margin: 0% 10% 0% 10%;
+  }
+  .products {
+    width: 45%;
+    height: 95%;
+  }
+  .products_items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .aboutMe,
+  .soldProducts {
+    font-size: 1.4vw;
+  }
+  .product_name {
+    font-size: 1.6vw;
+  }
+}

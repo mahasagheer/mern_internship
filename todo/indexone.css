@@ -1,0 +1,72 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #006769;
+}
+.nav_bar {
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 3%;
+  margin-right: 2%;
+}
+.head {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #344c64;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.addList {
+  padding: 5% 20% 5% 20%;
+}
+.input {
+  width: 73%;
+  padding: 2%;
+  font-size: medium;
+  border-radius: 2%;
+  outline: none;
+  border: 3px solid #344c64;
+}
+
+.btn {
+  width: 26%;
+  padding: 2%;
+  font-size: medium;
+  border-radius: 5%;
+  color: white;
+  background-color: #344c64;
+}
+.todo {
+  display: flex;
+  padding-top: 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+.index {
+  flex-basis: 5%;
+  background-color: #57a6a1;
+  color: white;
+  padding: 2%;
+  border-radius: 2%;
+}
+.task {
+  flex-basis: 90%;
+  background-color: #57a6a1;
+  color: white;
+
+  padding: 2%;
+}
+.logoName {
+  font-size: x-large;
+  color: white;
+}
